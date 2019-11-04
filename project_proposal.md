@@ -63,7 +63,7 @@ those with disabilities in various inustries and compares that information with 
 [Click here to access the dataset](https://www.dol.gov/odep/topics/disabilityemploymentstatistics.htm)
 ### 4.0 Information Visualizations
 ##### 4.1 An Uneven Playing Field
-![Education and Disability](/images/disability_infographic1.jpg) 
+![Education and Disability](/images/disability_infographic1.png)  
 _Shows the disparities in the income gap of those with varying educations and
 further highlights the gap in the pay between able-bodied people and disabled
 people. The visual makes it clear that those with disabilities receive less pay._
