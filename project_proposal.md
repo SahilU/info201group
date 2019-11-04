@@ -51,7 +51,7 @@ the way we as a society disable individuals from excelling.
 With the preceding information being mentioned, our first research question is about the opportunity provided to those with disabilities in education and in industry: Does disability affect one’s income? Education? Employment?
 ##### 2.2 Question 2
 Moving on, we wanted to dive into a more nuanced topic regarding War Veterans,
-and how those who become disabiled are then reacclimated and treated society. Specifically, how much opportunity is proved to War Veterans with disability?
+and how those who become disabled are then reacclimated and treated society. Specifically, does holding a veteran status affect education or employment?
 
 ### 3.0 Possible Datasets
 ##### 3.1 Dataset 1: American Institute of Research
@@ -63,7 +63,7 @@ those with disabilities in various inustries and compares that information with 
 [Click here to access the dataset](https://www.dol.gov/odep/topics/disabilityemploymentstatistics.htm)
 ### 4.0 Information Visualizations
 ##### 4.1 An Uneven Playing Field
-![Education and Disability](/images/disability_infographic1.jpg)  
+![Education and Disability](/images/disability_infographic1.jpg) 
 _Shows the disparities in the income gap of those with varying educations and
 further highlights the gap in the pay between able-bodied people and disabled
 people. The visual makes it clear that those with disabilities receive less pay._
