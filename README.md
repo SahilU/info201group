@@ -96,4 +96,5 @@ US Census Bureau. “Our Nation's Veterans.” Our Nation's Veterans, 7 May 2018
 **Salihou Fatty:** 
 
 [Click here to access the Technical Report](https://github.com/SahilU/info201group/wiki)
+
 [Click here to access the Shiny Application](http://127.0.0.1:5483)
