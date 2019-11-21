@@ -45,11 +45,11 @@ shinyUI(fluidPage(
               and how those who become disabled are then reacclimated and treated society. 
               Specifically, does holding a veteran status affect education or employment?"),
     ),
-    
-    navbarMenu("Visualizations",
-               tabPanel("Viz #1"),
-               h3("Bar chart"),
-               plotlyOutput("maingraph")
+    tabPanel("Disability and Employment rate (Vis#1)",
+      navbarMenu(tabPanel("Viz #1"),
+                 h3("Bar chart"),
+                 plotlyOutput("maingraph")
+      )
     ),
     
     tabPanel(
