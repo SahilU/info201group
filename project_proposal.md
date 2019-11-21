@@ -105,4 +105,4 @@ Used the envisioning cards to remind us of the different stakeholders in our res
 
 [Click here to access the Technical Report](https://github.com/SahilU/info201group/wiki)
 
-[Click here to access the Shiny Application](http://127.0.0.1:5483)
+[Click here to access the Shiny Application](https://github.com/SahilU/info201group/blob/master/ui.R)
