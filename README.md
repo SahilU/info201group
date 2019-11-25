@@ -97,4 +97,4 @@ US Census Bureau. “Our Nation's Veterans.” Our Nation's Veterans, 7 May 2018
 
 [Click here to access the Technical Report](https://github.com/SahilU/info201group/wiki)
 
-[Click here to access the Shiny Application](http://127.0.0.1:5483)
+[Click here to access the Shiny Application](https://info201group.shinyapps.io/info201group/)
