@@ -2,10 +2,10 @@ library(shiny)
 library(plotly)
 library(dplyr)
 
-install.packages("readxl")
-library(readxl)
+#install.packages("readxl")
+#library(readxl)
 
-df <- read_xlsx("data/Book1.xlsx")
+df <- read.csv("data/Book1.csv")
 
 shinyServer(function(input, output)(
   
