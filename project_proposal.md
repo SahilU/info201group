@@ -1,5 +1,5 @@
-# _Appendix: P1: Report Outline_
-## Disability and Opportunity
+# README [info201group]
+### Disability and Opportunity
 
 ###### Project: Disability as a Social Construct
 ###### _Team Members: Sahil Unadkat, Suyeon Hong, Siddharth Bedekar, Salihou Fatty_
@@ -7,7 +7,7 @@ INFO 201: Technical Foundations of Informatics
 The Information School  
 University of Washington  
 Autumn 2019
-
+ 
 ### 1.0 Introduction
 ##### 1.1 Problem Situation
 > Disability is a lack of accessibility defined within societal constructs.
@@ -47,40 +47,62 @@ the way we as a society disable individuals from excelling.
 With the preceding information being mentioned, our first research question is about the opportunity provided to those with disabilities in education and in the industry: Does disability affect one’s income? Education? Employment?
 ##### 2.2 Question 2
 Moving on, we wanted to dive into a more nuanced topic regarding War Veterans,
-and how those who become disabled are then reacclimated and treated society. Specifically, does holding a veteran status affect education or employment?
+and how those who become disabled are then re-acclimated and treated society. Specifically, does holding a veteran status affect education or employment?
 
-### 3.0 Possible Datasets
+### 3.0 Datasets
+The two datasets we chose do a great job of 
 ##### 3.1 Dataset 1: American Institute of Research
-The first dataset gives detailed information about those with disabilities regarding their eligibility for Social Security Administration (SSA) and the benefits received. This may be beneficial for understanding the demographics of those that have various disabilities.
+The first dataset was created by the United States Government and we accessed it using the SSA website. It gives detailed information about those with disabilities regarding their eligibility for Social Security Administration (SSA) and the benefits received. Also, it shows the amount of people receiving aid, which state they receive the aid in, and what percentage of adults or children received that aid. The observations are shown as a number or a percentage and they represent a few of variables such as population count and percentage of disabled adults receiving aid. Furthermore, it consists of over a thousand rows of data and only includes people in the United States in 2014. The dataset does a good job of showing when and where the data was collected from. However, the column titles are long and cannot be read without clicking on the specific column. Which makes it hard to quickly read the data. Still, this data is very beneficial for understanding the demographics of those that have various disabilities. 
 [Click here to access the dataset](https://www.ssa.gov/disability/data/SSA-SA-FYWL.csv)
 ##### 3.2 Dataset 2: U.S. Department of Labor
-Our next possible dataset contains examines the occupational distributions of
-those with disabilities in various industries and compares that information with income.  
+Our next dataset examines the occupational distributions of those with disabilities in various industries and compares that information with income. It was created by the United States government and we accessed it publically from the Department of Labor website. One section of the dataset is filtered based on the level of education, work experience, and the amount of job training required. Then it shows the total number of employees in each category and the amount of people with disabilities in the corresponding category. It also gives a percentage of employees with disabilities, the same percentage adjusted for job growth, and the percent change from the previous year of people with disabilities. The second part of the dataset gives the same information except it gives disability information for specific jobs such as Registered nurses and Dental hygienists. Its a large dataset with thousands of rows and is subset based on education, average salary, and gob growth. Which helps us understand which variables such as education, occupation, and military status impact people with disabilities the most.
 [Click here to access the dataset](https://www.dol.gov/odep/xls/DisabilityOccupationalProjections2012-2022.xls)
-### 4.0 Information Visualizations
-##### 4.1 An Uneven Playing Field
-![Education and Disability](https://www.air.org/sites/default/files/disability-unequal-pay-infographic-press-releasev4-01.png)  
-_Shows the disparities in the income gap of those with varying educations and
-further highlights the gap in the pay between able-bodied people and disabled
-people. The visual makes it clear that those with disabilities receive less pay._
-##### 4.2 Our Nation's Veterans
-![Veteran Status and Location](https://www.census.gov/content/census/en/library/visualizations/2015/comm/our-nation-s-veterans/jcr:content/map.detailitem.950.high.png/1525721650875.png)
-_Highlights the distribution on a geographic map of civilian veterans
-as well as their period of service. Also provides key details regarding the median income of veterans, demographics of veterans, population, etc._
 
-### 5.0 Team Coordination
-In order to complete our project, each team must maintain fluid communication and work ethic. Each week, our team will meet on Saturdays at noon and Sundays as needed to discuss the project and priorities to complete. All our communication will be through Facebook Messenger because of it the easiest form of communication. We will address any challenges regarding work or communication in person, while also being empathetic of each person to mitigate conflict. As the project goes on, we will continually provide feedback to each other at each meeting on Saturday to have a successful deliverable and learning experience. The purpose of this project is to learn about how to manipulate data with a topic in which each individual is interested in:
-> **Sahil Unadkat:** _With this project, my goal role is to lead the group and provide deliverables to ensure the project is cohesive. My goal with this project is to understand how to filter data to gain insight._  
-**Suyeon Hong:** _My role in this project is to research data and learn how to apply the fundamentals of datascience to find answers to our topic of interest._  
-**Siddharth Bedekar:** _My goal with this project is to learn how to manipulate a dataset to provide the necessary information to answer the question at hand. My role will focus more on applying these skills._  
-**Salihou Fatty:** _My goal for this project is to gain both soft skills and data science skills by working on a team to work with data and gain insights. My role will revolve around implementing the necessary changes to the data._
-### 6.0 Questions for Teaching Team
-The biggest question our team has is how do we know we have the right dataset(s)? How many datasets does a project such as this rely on?
-### 7.0 References
-Lbogle. “An Uneven Playing Field: The Lack of Equal Pay for People With Disabilities.” American Institutes for Research, 17 Jan. 2019, www.air.org/resource/uneven-playing-field-lack-equal-pay-people-disabilities.  
+### 4.0 Information Visualizations
+The primary purpose of our visualization is to gain insights on the relationship between disability and opportunity. Our specific dataset contains information regarding the employment rates between those with disabilities and those without disabilities. The term ‘disability’ may be nuanced so we based its definition for our dataset by the legal definition, which pertains to any persons that  “lack competent physical and mental faculties; the absence of legal capability to perform an act. The term disability usually signifies an incapacity to exercise all the legal rights ordinarily possessed by an average person” (https://legal-dictionary.thefreedictionary.com/disability). 
+
+In cultivating ideas for our visualizations, we wanted to focus on gaining insights as to whether there are disparities in the employment between those with disabilities and those who are able-bodied. If there are disparities, we wish to see how big the disparities may be, and gain more insight by including other factors such as noting the difference in employment rates between different states. With that being said, our visualization created allows us to see those insights. As you can see, we have a ‘double’ bar graph with one color bar representing the employment rate of those with disabilities, and another bar representing employment rate of those without disabilities. This visualization is interactive -  if you hover over a certain bar, it will communicate information regarding the employment rate, and if you would like to ‘zoom in’ on the graph, you can click and drag the graph at the desired location to get a better look at it. The features and aesthetic of this visualization allows us to see that there are huge disparities in employment between those with disabilities and those who are able-bodied.
+
+### 5.0 Technical Description of Shiny Application
+Constructing this shiny application was a daunting task; however, after breaking the task down into smaller steps, it became much more doable. We initially made a UI.r file where we put the plot from my server file on the UI. This UI file would be the hub of our visualization and allowed us to actually run our application. We had then made a server.r file which constructed the plot using plotly package. Since we had a hard time finding raw data, we used a .xls file as opposed to a traditional .csv file. We incorporated our data (located in the excel file) which utilized the readxl package to be able to read the table from my excel data file. Following that, we then plotted a group bar graph which showed disabled and non disabled people’s employment rates in different states of america. Different colors were assigned to the two different groups of disabled people vs non disabled people. We did this to see if the disparity between employment rates differ between states and to determine the proportion of difference. Lastly, in implementing our shiny application we used plotly to plot the graph, where shiny posed as the main interface of the visualization.
+
+### 6.0 Conclusion
+Our project did a great job of specifically showing what areas in our country have the highest and lowest employment rates for disabled people. We didn't include more specific locations but, showing data from different states is a start. The main lesson we learned is that there is a significant gap in employment between disabled and non-disabled citizens. Other people could use this data to advocate for more jobs for disabled people. Or this information could lead the government to providing more jobs to disabled people.
+
+### References
+Lbogle. “An Uneven Playing Field: The Lack of Equal Pay for People With Disabilities.” American Institutes for Research, 17 Jan. 2019, www.air.org/resource/uneven-playing-field-lack-equal-pay-people-disabilities.
 
 Lbogle. “Those with Disabilities Earn 37% Less on Average; Gap Is Even Wider in Some States.” American Institutes for Research, 17 Jan. 2019, www.air.org/news/press-release/those-disabilities-earn-37-less-average-gap-even-wider-some-states.
 
 U.S. Department of Labor. “Disability Employment Statistics.” Disability Employment Statistics - Office of Disability Employment Policy - United States Department of Labor, 2018, www.dol.gov/odep/topics/disabilityemploymentstatistics.htm.
 
 US Census Bureau. “Our Nation's Veterans.” Our Nation's Veterans, 7 May 2018, www.census.gov/library/visualizations/2015/comm/our-nation-s-veterans.html.
+
+### Appendix 1: Data Dictionary
+#####
+| Variable Name   | Description                                                                                           | Data Type | Measurement Type |
+|-----------------|-------------------------------------------------------------------------------------------------------|-----------|------------------|
+| Age             | Whether the person is under 18, 18-64, or 64 & up                                                     | Integer   | Interval         |
+| Location        | The State the data is collected from                                                                  | Character | Nominal          |
+| Income          | Median wage of the occupation                                                                         | Integer   | Nominal          |
+| Disability      | Whether or not the person or group represented has disabilities                                       | Boolean   | Dichotomous      |
+| Work Experience | Grouped based on 5 years, less than 5 years, or no work experience                                    | Integer   | Interval         |
+| Education       | The typical amount of education needed for a specific occupation ex: High School, Associates, Masters | Character | Nominal          |
+| Occupation      | The specific occupation being represented by the data                                                 | Character | Nominal          |
+
+### Appendix 2: Reflections
+**Sahil Unadkat:** This project was actually a fun project to embark on; I was very passionate about our research question so I was initially optimistic upon entering this part of the project because I was very curious to see what insights we could gather. The first step was to base our insights and visualizations off of good data - this was a very difficult step, and time consuming step because there weren’t any public databases available regarding our topic, and this made the project much more difficult. Furthermore, it was difficult to communicate and push code with members - this was new for me as I had never had any group experience working with github. It was also difficult to set aside time throughout the week to work on this project or brainstorm because everyone had such differing schedules. Nonetheless, creating our first visualization off of our data was very satisfying and fun to interact with.
+
+**Salihou Fatty:** This was my first coding related project and I honestly enjoyed it. It was very satisfying when it was finished and I got to seek all of our work come together. Also, it was nice to get some hands-on experience and be able to create something from scratch. One aspect of this project that was very challenging was finding the right question and the right data. Many of the datasets we wanted to use were hard to find off the internet and the data we did acquire as hard to work with. Even after that, finding research questions were difficult as well. One thing I would do differently is try and find our research question after we found a very neat/clean dataset. This would make it easier to ask questions about the data, when we already have it in front of us. In conclusion,this project helped me learn to just try new things and use resources such as teaching assistants and even Google to solve my problems.  
+
+
+**Siddharth Bedekar:** This project was really fun as I got to learn a lot about shiny and other related packages. Our research question involved a pertinent social issue and so I was optimistic upon entering this part of the project because I was very curious to see what insights we could gather. The first step was to base our insights and visualizations off representative data which was a very time consuming step because there weren’t any public databases available. Furthermore, not every team member had used Github before and hence some of us faced issues with merge conflicts or didn’t know about git stash features. It was also difficult to set aside time throughout the week to work on this project or brainstorm because everyone had such differing schedules. Nonetheless, creating our first visualization off of our data was very satisfying and fun to interact with. I am excited to see what this project entails in the future.
+
+**Suyeon Hong:** This project actually helped me a lot in learning coding using R because we led the project by ourselves starting from choosing the topic we want to research to publishing a shiny application. Since the project was basically designed by us, it was hard to choose a research question, find raw data (this was honestly the hardest part) that are appropriate for the topic, design how the application would look like at the end, figure out which visualization would be the best for the data, how we are going to code it, etc. I personally enjoyed working on the project since it was about something that we were all curious about, and I was proud of myself that I can actually code and publish something from it. I am excited to work on more projects and see our final application at the end of the course. 
+
+### Appendix 3: Use of Envisioning Cards
+Used the envisioning cards to remind us of the different stakeholders in our research questions such as unemployed people with disabilities. Or others in mental hospitals or prisons. 
+
+[Click here to access the Technical Report](https://github.com/SahilU/info201group/wiki)
+
+[Click here to access the Shiny Application](https://github.com/SahilU/info201group/blob/master/ui.R)

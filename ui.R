@@ -70,7 +70,7 @@ shinyUI(fluidPage(
       p(href = "", 
         "https://www150.statcan.gc.ca/n1/tbl/csv/13100356-eng.zip"), # add a link for data
       h3("Link to technical report"),
-      p(href = "", "add a link for technical report here") 
+      p(href = "", "https://github.com/SahilU/info201group/blob/master/project_proposal.md") 
     ),
     
     tabPanel(
