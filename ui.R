@@ -1,5 +1,6 @@
 library(shiny)
 library(plotly)
+library(leaflet)
 
 shinyUI(fluidPage(
   
@@ -48,7 +49,8 @@ shinyUI(fluidPage(
     tabPanel("Disability and Employment rate (Vis#1)",
       navbarMenu(tabPanel("Viz #1"),
                  h3("Bar chart"),
-                 plotlyOutput("maingraph")
+                 plotlyOutput("maingraph"),
+                 leafletOutput("map")
       )
     ),
     
