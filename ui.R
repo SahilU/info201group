@@ -38,36 +38,40 @@ shinyUI(fluidPage(
               change accordingly by being mindful of those with disabilities and to further provide equal opportunity."),
       h3("Research Questions"),
       h4("Question 1"),
-      p("With the preceding information being mentioned, our first research question 
-              is about the opportunity provided to those with disabilities in education 
-              and in the industry: Does disability affect one’s income? Education? Employment?"),
+      p("Does disability affect one’s income? Education? Employment?"),
       h4("Question 2"),
-      p("Moving on, we wanted to dive into a more nuanced topic regarding War Veterans, 
-              and how those who become disabled are then reacclimated and treated society. 
-              Specifically, does holding a veteran status affect education or employment?"),
+      p("How big is the difference of employment rate in each state between those who have disabilities
+      and those who don't"),
     ),
-    tabPanel("Disability and Employment rate (Vis#1)",
-      navbarMenu(tabPanel("Viz #1"),
-                 h3("Bar chart"),
-                 plotlyOutput("maingraph"),
-                 leafletOutput("map")
-      )
+    navbarMenu("Disability and Employment rate",
+             tabPanel("Viz #1(Bar chart)",
+                        h3("Percentage of disabled people and non-disabled people employed by state"),
+                        plotlyOutput("maingraph")
+             ),
+              tabPanel("Vis #2(Map)",
+                        h3("Percentage of disabled people employed by state"),
+                        leafletOutput("map")
+             )
     ),
     
     tabPanel(
       "Conclusion",
+      h3("Research findings"),
       p("As a conclusion, people with disabilities turned out to have a lower employment rate
         compared to people without disabilities. For most states in the U.S., the difference of 
         the employment rate was more than a double according the visualization #1. 
+        In addition to that, according to the map(visualization), the percentage of 
+        disabled people employed is less than 50% in all states.
         What we can conclude from this application is that disability applies as a barrier when getting a job that employers actually 
         do consider whether people have physical difficulties or not. It is apparently an issue nowadays, and people with disabilities
-        should be further provided equal opportunities as others.")
+        should be further provided equal opportunities as others."),
     ),
     
     tabPanel(
       "About the Tech",
       h3("Packages we use"),
-      p("shiny, dplyr, plotly to visualize the data"),
+      p("shiny, dplyr, plotly, leaflet, gpplot2, usmpap, maps to create functions 
+        to visualize the data and to create context of this research."),
       h3("Data we use"),
       p(href = "", 
         "https://www150.statcan.gc.ca/n1/tbl/csv/13100356-eng.zip"), # add a link for data
@@ -96,4 +100,3 @@ shinyUI(fluidPage(
     )
   )
 ) )
-
